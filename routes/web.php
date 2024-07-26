@@ -186,7 +186,7 @@ Route::get('/generate-sitemap', function () {
             ->setLastModificationDate(Carbon::yesterday())
             ->setChangeFrequency(Url::CHANGE_FREQUENCY_YEARLY)
             ->setPriority(0.1))
-        ->add(Url::create('blog/explore-the-new-paths-with-blueberry-chauffeur')
+        ->add(Url::create('/blog/blueberry-chauffeur-service-for-business-travel')
             ->setLastModificationDate(Carbon::yesterday())
             ->setChangeFrequency(Url::CHANGE_FREQUENCY_YEARLY)
             ->setPriority(0.1))
