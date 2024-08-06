@@ -10,7 +10,7 @@
 
         <img src="{{ asset('template Resourses/assets/contact/au.webp') }}" alt="Image" height="500px" width="100%"
             class="img-fluid" style="object-fit: cover;">
-        <div class="carousel-caption text-overlay">
+        <div class="carousel-captio text-overlay">
             <h1 class="text-gray   animated slideInDown">Contact Us</h1>
         </div>
     </div>
@@ -57,7 +57,7 @@
                         frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
                         tabindex="0"></iframe>
                 </div>
-                
+
                 <div class="col-md-6">
                     <div class="wow fadeInUp" data-wow-delay="0.2s">
 

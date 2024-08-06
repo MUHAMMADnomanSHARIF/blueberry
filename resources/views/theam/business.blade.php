@@ -7,36 +7,15 @@
 @section('coustomCss')
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <style>
-        .row {
-            margin-top: 20px;
-        }
-
-        .image-container {
-            position: relative;
-            width: 100%;
-            max-width: 100%;
-            overflow: hidden;
-        }
-
-
-
-        .slider_1 {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .card {
-            border: none;
-        }
-
-        @media (max-width: 768px) {
-            .text-overlay h1 {
-                font-size: 1.4em !important;
-                text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9) !important;
+        h2{
+                color: #000000 !important;
+                font-size: 30px !important;
+                font-weight: 800 !important;
+                line-height: 34px !important;
+                margin-bottom: 20px !important;
             }
-        }
     </style>
-@endsection
+    @endsection
 
 
 @section('content')
@@ -49,8 +28,7 @@
                 Executive business chauffeur service</h1>
 
             <button type="button" class="btn btn-primary" style="margin-top: 20px;">
-                <a href="{{ route('theme.reservation') }}"
-                    style="text-decoration: none; color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);">
+                <a href="{{ route('theme.reservation') }}">
                     Book Now &#8594;
                 </a>
             </button>
@@ -62,17 +40,17 @@
     <div class="container overflow-hidden">
         <div class="row">
             <div class="col-12">
-                <h3>Business chauffeur service  </h3>
+                <h2 class="pt-4">Business chauffeur service  </h2>
                 <p>
-Need to be on time for business meetings or business events? Here is our blueberry chauffeur company for you to help with business, corporate type, and travel transportation. Picture yourself arriving at business seminars and conferences on time and enjoying all the time. Arriving at business meetings on time creates the best impression of your seriousness in business. 
+Need to be on time for business meetings or business events? Here is our blueberry chauffeur company for you to help with business, corporate type, and travel transportation. Picture yourself arriving at business seminars and conferences on time and enjoying all the time. Arriving at business meetings on time creates the best impression of your seriousness in business.
 
 
                 </p>
             </div>
             <div class="col-12">
-                <h3>Stress-free travel with business cars serivce </h3>
-                <p> 
-Our Blueberry chauffeur company is available 24/7, so leave the travel tension on us. Our company provides the best business chauffeur service to clients throughout London. We also offer business car hire and flawless business services to build an impressive image when you reach the office or at any meeting. Our company chauffeur will arrive 30 minutes before your pick-up point, so you do not have to worry. 
+                <h2>Stress-free travel with business cars serivce </h2>
+                <p>
+Our Blueberry chauffeur company is available 24/7, so leave the travel tension on us. Our company provides the best business chauffeur service to clients throughout London. We also offer business car hire and flawless business services to build an impressive image when you reach the office or at any meeting. Our company chauffeur will arrive 30 minutes before your pick-up point, so you do not have to worry.
  </p>
             </div>
         </div>
@@ -81,20 +59,20 @@ Our Blueberry chauffeur company is available 24/7, so leave the travel tension o
     <div class="container overflow-hidden my-md-5">
     <div class="row about-section">
         <div class="col-lg-6 col-sm-12 mb-5 mb-lg-0 content-column">
-            <h3>Things to know about us
-    </h3>
+            <h2>Things to know about us
+    </h2>
     <p>Our Blueberry chauffeur company understand the importance of the timely arrival of your meeting. Our company cares about all the little details of your business ride.
     </p>
 
             <ol class="alternating-colors text">
-            
+
                     <h4>Premium business chauffeurs london</h4>
                     <p>
 Our Blueberry chauffeur company offers the best business cars and well-trained and subtle professional chauffeurs. They are all insured and well-qualified test-passed persons, so there is no need to worry about any disturbance or bad behavior. Our chauffeurs will drive you efficaciously and with extreme care. Our business chauffeurs in London will always stick to the decided route and never take shortcuts to make you uncomfortable. Your chauffeurs will always be in your comfort zone and will be your butler on wheels. Our business car hire chauffeur is well-known for the road and corner of London and its districts. Our business chauffeurs are punctual and always make you work on time.
                     </p>
-               
-                   
-               
+
+
+
                     <!-- <h4>Variety of vehicles</h4>
                     <p class="text-size">
                         As an airport transfer London company, we offer various cars. You can choose a vehicle according to your affordable budget.
@@ -133,7 +111,7 @@ Our business car hire service gives you a comfortable drive and plenty of time t
 
 <h4>Business car hire in the UK</h4>
                     <p>
-                    
+
 Our business chauffeur service lets you use your ride's time productively and effectively. We will give you access to Wi-Fi so you can travel and have a meeting while you attend any event or other meeting. Our business chauffeur service saves time on the busy roads of London and makes you work more than usual.
                     </p>
             </div>
@@ -143,7 +121,7 @@ Our business chauffeur service lets you use your ride's time productively and ef
         <div class="row about-section pt-0 pt-lg-5">
 
             <div class="col-lg-6 col-sm-12 content-column">
-                <h3>Over and Above London </h3>
+                <h2>Over and Above London </h2>
                 <p class="text">
 We can tell you if you even want to go on a private london tour beyond London. Our private chauffeur service for private london tour will take you anywhere and safely. Make things clear and decide everything with us, and we will make your trip the best.
 
@@ -321,7 +299,7 @@ We can tell you if you even want to go on a private london tour beyond London. O
 
     <div class="container overflow-hidden">
         <div class="row">
-            <div class="col-lg-12 text-center">
+            <div class="col-lg-12 text-center pt-4">
                 <h2>Why choose blueberry chauffeur?</h2>
             </div>
         </div>
@@ -367,7 +345,7 @@ We can tell you if you even want to go on a private london tour beyond London. O
                 </div>
             </div>
             <h6>
-Save your precious time; call us or schedule a ride for your business, corporate, or travel transportation. Visit our Blueberry chauffeur company website and get all the information. Give us all the information about your time, date, and destination. Let us take you to your destination, and you can relax or work in the back without any traveling tension. 
+Save your precious time; call us or schedule a ride for your business, corporate, or travel transportation. Visit our Blueberry chauffeur company website and get all the information. Give us all the information about your time, date, and destination. Let us take you to your destination, and you can relax or work in the back without any traveling tension.
 </h6>
 
         </section>

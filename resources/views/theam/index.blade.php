@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('meta_title', 'Luxury Chauffeur Services in London | Blueberry Chauffeur!')
+@section('meta_title', 'Luxury Chauffeur Services London | Blueberry Chauffeur!')
 @section('meta_desc',
     'Experience premium chauffeur services in london with Blueberry Chauffeur. Reliable, stylish, and comfortable rides for all your needs. Book now!')
 @section('coustomCss')
@@ -8,82 +8,64 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
 
     <style>
-        #locationField,
-        form,
-        button {
-            width: 100%;
-        }
 
-        .header-section {
-            height: 100%;
-            width: 100%;
-        }
 
-        .carousel-item img {
-            height: 600px !important;
-            width: 100%;
-        }
 
-        .carousel-caption {
-            position: absolute;
-            top: 55%;
-            left: 10%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            color: white;
-            width: 80%;
-            max-width: 700px;
-            margin: auto;
-            overflow-x: hidden;
-            margin-left: 255px;
 
-        }
-
-        .carousel-caption h1 {
-            font-size: 3rem;
-            font-weight: bold;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-            margin-bottom: 1rem;
-        }
-
-        @media (max-width: 768px) {
-            .carousel-caption {
+            .carousel-item img {
+                height: 100vh !important;
                 width: 100%;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
             }
 
-            .carousel-caption h1 {
-                font-size: 1.6rem;
-            }
-        }
-
-        @media (min-width: 768px) and (max-width: 1024px) {
             .carousel-caption {
-                width: 80%;
-                left: 50%;
+                position: absolute;
+                top: 55%;
+                left: 10%;
                 transform: translate(-50%, -50%);
+                text-align: center;
+                color: white;
+                width: 80%;
+                max-width: 700px;
+                margin: auto;
+                overflow-x: hidden;
+                margin-left: 255px;
+
             }
 
             .carousel-caption h1 {
-                font-size: 2.5rem;
+                font-size: 3rem;
+                font-weight: bold;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+                margin-bottom: 1rem;
             }
-        }
-
-        .new-section {
-            position: absolute;
-            top: 42%;
-            left: 55%;
-        }
-
-        .desktop-form {
-            background: rgba(0, 0, 0, 0.2);
-            width: 100%;
-        }
-
-        @media (max-width: 768px) {
             .new-section {
+                position: absolute;
+                top: 42%;
+                left: 55%;
+            }
+
+            .desktop-form {
+                background: rgba(0, 0, 0, 0.2);
+                width: 75%;
+
+                align-self: right;
+            }
+  @media (max-width: 768px) {
+    .carousel-caption {
+        width: 100%;
+        top: 60%;
+        left: 50%;
+        margin:0px !important;
+        text-align:center;
+        transform: translate(-50%, -50%);
+        padding:auto;
+
+    }
+
+    .carousel-caption h1 {
+        font-size: 1.2rem;
+    }
+    .new-section {
                 position: relative;
                 width: 100%;
                 left: 0;
@@ -92,54 +74,63 @@
             .header-buttn {
                 display: none;
             }
-        }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
 
-        @media (min-width: 768px) and (max-width: 1024px) {
-            .new-section {
-                position: absolute;
-                width: 100%;
-                top: 50%;
-                left: 0;
-            }
+.carousel-caption {
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
-            .text-overlay {
-                display: none;
-            }
+.carousel-caption h1 {
+    font-size: 2.5rem;
+}
+.new-section {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 0;
+    }
 
-            .second {
-                position: relative;
-                width: 100%;
-                margin-top: 50px;
-            }
-        }
+    .text-overlay {
+        display: none;
+    }
+
+    .second {
+        position: relative;
+        width: 100%;
+        margin-top: 50px;
+    }
+}
     </style>
 @endsection
 
 @section('content')
     <!-- Carousel Start -->
-    <div class="container-fluid header-section p-0 overflow-hidden position-relative">
+    <div class="container-fluid header-section p-0 overflow-hidden position-relative h-75">
         <img src="{{ asset('template Resourses/assets/home/Home Banner.webp')}}" alt="home Page image" class="img-fluid"
             style="object-fit: cover;width:100%;">
         <div class="carousel-caption text-overlay">
-            <h1 class="text-gray m">Enjoy the Essence of Chauffeur Service London</h1>
-            <a href="{{ route('theme.about') }}" class="btn header-buttn py-3 px-5 mt-4 animated slideInDown">Learn More<i
+            <h1 class="text-gray m">Enjoy the Essence of Luxury Chauffeur Service London</h1>
+            <a href="{{ route('theme.about') }}" class="btn header-buttn py-3 px-5  animated slideInDown">Learn More<i
                     class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </div>
 
     <div class="new-section overflow-hidden">
         <div class="row g-0">
-            <div id="bookride" class="col-lg-12 col-sm-12 d-block carousel-item active">
+            <div align="center" id="bookride" class=" mt-md-6 col-lg-8 col-sm-12 d-block carousel-item active">
                 <div class="desktop-form mobile-form h-100 d-flex flex-column justify-content-center text-center p-4"
                     data-wow-delay="0.6s">
                     <h2 class="text-white mb-4">Book For A Ride</h2>
                     <div class="container" id="locationField">
                         <div class="row justify-content-center">
                             <div id="btn1" class="col-12 col-sm-6 mb-3">
-                                <button class="btn w-100 py-3 btn-rectangle rounded-pill">One Way</button>
+                                <button class="btn w-100 py-1 btn-sm">One Way</button>
                             </div>
                             <div id="btn2" class="col-12 col-sm-6 mb-3">
-                                <button class="btn w-100 py-3 btn-rectangle rounded-pill">By the Hour</button>
+                                <button class="btn w-100 py-1 btn-sm">By Hour</button>
                             </div>
                         </div>
                         <form action="{{ url('select-your-car') }}" method="POST" id="formOne">
@@ -147,11 +138,11 @@
                             <div class="row g-3">
                                 <div class="col-12">
                                     <input type="text" class="form-control border-0" placeholder="Pick Point"
-                                        style="height: 55px; border-radius: 10px;" name="source" id="source" required>
+                                        style="height: 40px; border-radius: 10px;" name="source" id="source" required>
                                 </div>
                                 <div class="col-12">
                                     <input type="text" class="form-control border-0" placeholder="Your Destination"
-                                        style="height: 55px; border-radius: 10px;" name="dest" id="dest" required>
+                                        style="height: 40px; border-radius: 10px;" name="dest" id="dest" required>
                                 </div>
                                 <input type="hidden" name="latitude" id="lat1">
                                 <input type="hidden" name="longitude" id="long1">
@@ -159,25 +150,24 @@
                                 <input type="hidden" name="longitude1" id="long2">
                                 <input type="hidden" name="ridetype" value="By Destination">
                             </div>
-                            <button class="btn btn-secondary w-100 py-3 rounded-pill mt-3" type="submit">Book Now</button>
+                            <button class="btn btn-secondary w-100 py-1  mt-3" type="submit">Book Now</button>
                         </form>
-                        <form action="{{ url('calculateHour') }}" method="POST" id="formTwo">
+                        <form action="{{ route('theme.calculateHour') }}" method="POST" id="formTwo">
                             {{ csrf_field() }}
                             <div class="row g-3">
                                 <div class="col-12">
                                     <input type="text" class="form-control border-0" placeholder="Pick Point"
-                                        style="height: 55px; border-radius: 10px;" name="source" id="source2" required>
+                                        style="height: 40px; border-radius: 10px;" name="source" id="source2" required>
                                 </div>
                                 <div class="col-12">
                                     <input type="number" class="form-control border-0" placeholder="Enter Number Of Hours"
-                                        style="height: 55px; border-radius: 10px;" name="hour" max="23"
-                                        min="1">
+                                        style="height: 40px; border-radius: 10px;" name="hour" id="hour" required>
                                 </div>
                                 <input type="hidden" name="latitude3" id="lat3">
                                 <input type="hidden" name="longitude3" id="long3">
                                 <input type="hidden" name="ridetype" value="BY Hour">
                             </div>
-                            <button class="btn btn-secondary w-100 py-3 rounded-pill" type="submit">Book Now</button>
+                            <button class="btn btn-secondary w-100 py-1  mt-3" type="submit">Book Now</button>
                         </form>
                     </div>
                 </div>
@@ -202,20 +192,16 @@
     <div class="container  lg-4 overflow-hidden position-relative">
         <div class="row about-section">
             <div class="col-lg-6 col-sm-12 content-column ">
-                <h3>Guide to Hire the Finest Chauffeur</h3>
+                <h2>Hire a Chauffeur Service in London for Any Occasion</h2>
                 <p class="text"> The chauffeur is not like other drivers. They are highly trained not only to drive but
                     also to maintain
                     the vehicle. They know all the potential paths that make the person easily reach the destination, they
                     never arrive late, and they follow the guidance of the person in such a way that they can satisfy the
                     clients. They make sure that this person's journey is peaceful, comfortable, and pleasant. High-level
-                    individuals, corporate officers, businesses, private companies, and discerning travelers hire a
-                    chauffeur to make their journey reliable. From city to city,<a href="{{ route('theme.airport') }}"
-                        style="text-decoration: none; color:#ecbd00 ;
-    font-weight: 500;">airport</a> , and <a
-                        href="{{ route('theme.event') }}"
-                        style="text-decoration: none; color:#FE9900 ;
-    font-weight: 500;">special
-                        events</a>, they aim to
+                    individuals, corporate officers, <a href="{{route('theme.business')}}" style="text-decoration: none; color:#FE9900 ; font-weight: 500;"> business chauffeur london</a>
+                    ,<a href="{{route('theme.tours')}}" style="text-decoration: none; color:#FE9900 ;font-weight: 500;"> private chauffeur service</a>, and discerning travelers hire a
+                    chauffeur to make their journey reliable. From city to city, <a href="{{ route('theme.airport') }}" style="text-decoration: none; color:#FE9900 ; font-weight: 500;">london chauffeur airport transfer</a>, and <a
+                        href="{{ route('theme.event') }}"                        style="text-decoration: none; color:#FE9900 ; font-weight: 500;">luxury events london</a>, they aim to
                     transform every ride of this person into an enjoyable memory.
                 </p>
             </div>
@@ -421,57 +407,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="tab-pane fade" id="tab-pane-4">
-                                        <div class="row g-4">
-                                            <div class="col-md-6" style="min-height: 350px;">
-                                                <div class="position-relative h-100">
-                                                    <img class="position-absolute img-fluid w-100 h-100"
-                                                        src="{{ asset('template Resourses/pics/eqv.png') }}"
-                                                        style="object-fit: cover;" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <h4 class="mb-3 class=head-gold"> <i class="fa-solid fa-chair"></i><span> 7
-                                                        passangers </span>
-                                                    <i class="fa-solid fa-suitcase"></i><span> 8 Suitcases </span>
-                                                    <i class="fa-solid fa-bolt-lightning"></i><span> Electric Option
-                                                    </span>
-                                                    <i class="fa-solid fa-wifi"></i><span> Onboard Wi-Fi </span>
-                                                </h4>
-                                                <p class="mb-4">
-                                                <div class="description-icons">
-                                                    <span><i class="fa-regular fa-circle-check"></i> First class
-                                                        chauffeur</span><br>
-                                                    <span><i class="fa-regular fa-circle-check"></i> Free 60 mins airport
-                                                        parking</span><br>
-                                                    <span><i class="fa-regular fa-circle-check"></i> Free 60 mins
-                                                        waiting time for airport pickups, 15 mins all others</span><br>
-                                                    <span><i class="fa-regular fa-circle-check"></i> Include meet &
-                                                        greet</span><br>
-                                                    <span><i class="fa-regular fa-circle-check"></i> Free cancellation
-                                                        within 24 hours</span><br>
-                                                </div>
-                                                </p>
-                                                <hr>
-                                                <table id="price-description" class="price-table">
-                                                    <tr>
-                                                        <td>Hourly rate (minimum 3 hours)</td>
-                                                        <td class=" head-gold">£65</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Day rate (8 hours)</td>
-                                                        <td class=" head-gold">£520</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Heart throw to central London</td>
-                                                        <td class=" head-gold">£150</td>
-                                                    </tr>
-                                                </table>
-                                                <a href="{{ route('theme.reservation') }}" class="btn btn-primary py-3 px-5 mt-3">Book Now<i
-                                                        class="fa fa-arrow-right ms-3"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -502,7 +438,7 @@
                     <div class="card__content">
                         <h3>Airport </h3>
                         <p>We provide professional <span style="cursor: pointer; font-weight:bold;"
-                                onclick="window.location.href='{{ route('theme.airport') }}'">airport chauffeurs </span>
+                                onclick="window.location.href='{{ route('theme.airport') }}'">london chauffeur airport transfer</span>
                             who will take you to the airport on time and pick you up from the airport to your destination.
                             They will wait for an hour and take care of your arrival.
                         </p>
@@ -522,8 +458,7 @@
                         <h3>Weddings</h3>
                         <p>To cover the travel of your wedding celebrations, we provide you with a <span
                                 style="cursor: pointer; font-weight:bold;"
-                                onclick="window.location.href='{{ route('theme.wedding') }}'">wedding chauffeur hire
-                            </span> who ensures your and your luggage's safety and helps you manage the luggage.</p>
+                                onclick="window.location.href='{{ route('theme.wedding') }}'">wedding car hire near me</span> who ensures your and your luggage's safety and helps you manage the luggage.</p>
 
                             <a href="{{ route('theme.wedding') }}" class="btn btn-primary d-grid rounded-pill mt-3">Read More</a>
 
@@ -537,11 +472,10 @@
                     </div>
                     <div class="card__content">
                         <h3>Tours</h3>
-                        <p>Make your tour more reliable and comfortable. We offer you a <span
+                        <p>Enjoy a reliable and comfortable tour with a <span
                                 style="cursor: pointer; font-weight:bold;"
-                                onclick="window.location.href='{{ route('theme.tours') }}'"> private London tours </span>
-                            chauffeur who uncovers every corner of the land you want to explore the best routes with
-                            guidance.</p>
+                                onclick="window.location.href='{{ route('theme.tours') }}'"> personal  London chauffeur</span>
+                                who will uncover every corner of the land and guide you along the best routes.</p>
 
                             <a href="{{ route('theme.tours') }}" class="btn btn-primary d-grid rounded-pill mt-3">Read More</a>
 
@@ -558,8 +492,7 @@
                         <h3>Business</h3>
                         <p>Travelling for business meetings and conferences is stressful for a person, but we make it
                             comfortable by providing <span style="cursor: pointer; font-weight:bold;"
-                                onclick="window.location.href='{{ route('theme.business') }}'">chauffeur service in
-                                London</span> and top-class vehicles.</p>
+                                onclick="window.location.href='{{ route('theme.business') }}'">business chauffeur london</span> and top-class vehicles.</p>
 
                                 <a href="{{ route('theme.business') }}" class="btn btn-primary d-grid rounded-pill mt-3">Read More</a>
 
@@ -575,7 +508,7 @@
                         <h3>Events</h3>
                         <p>We provide luxury chauffeur service and professionals to cover your <span
                                 style="cursor: pointer; font-weight:bold;"
-                                onclick="window.location.href='{{ route('theme.event') }}'"> event travel </span> . Driver
+                                onclick="window.location.href='{{ route('theme.event') }}'">luxury events london </span> . Driver
                             and vehicle cover all events, ranging from co-operatives to private events.</p>
 
                             <a href="{{ route('theme.event') }}" class="btn btn-primary d-grid rounded-pill mt-3">Read More</a>
@@ -591,7 +524,7 @@
         <div class="row about-section">
             <div class="col-lg-6 col-sm-12 content-column ">
 
-                <h3>Your Passport to Luxury Chauffeur Service</h3>
+                <h2>Your Passport to Luxury Chauffeur Service London</h2>
                 <p class="text"> The local driver did not provide proper travel services, which made your journey a
                     difficult task, but
                     our company provides luxury chauffeur services, which give you the essence of relaxing, working, and
@@ -599,16 +532,10 @@
                     prioritize the best routes for you, and ensure your belongings and your safety. They also manage the
                     equipment and ensure route safety measures, manage time, and perfectly plan and follow your travel
                     plan.
-                    Hire a personal Chauffeur for personal or <a href="{{ route('theme.tours') }}"
+                    Hire a personal Chauffeur for personal or private chauffeur service
+                    ,business chauffeur london, family outings, <a href="{{ route('theme.wedding') }}"
                         style="text-decoration: none; color:#FE9900 ;
-    font-weight: 500;">private tours</a>, <a
-                        href="{{ route('theme.business') }}"
-                        style="text-decoration: none; color:#FE9900 ;
-    font-weight: 500;">business
-                        meetings</a>, family outings, <a href="{{ route('theme.wedding') }}"
-                        style="text-decoration: none; color:#FE9900 ;
-    font-weight: 500;">wedding
-                        occasions</a>, and exploring new lands. They make your journey amazing from the first step to the
+    font-weight: 500;">wedding car hire near me</a>, and exploring new lands. They make your journey amazing from the first step to the
                     last
                     moment as they unfold every corner of the path so beautifully that it reveals the beauty of the
                     land.
@@ -714,7 +641,7 @@
                     </li>
                     <li>
 
-                        <p>No delay in the arrival of the driver.</p>
+                        <p>Hire a chauffeur service in London during the pandemic.</p>
                     </li>
                     <li>
 
@@ -734,7 +661,7 @@
                     </li>
                     <li>
 
-                        <p>Take protective measures.</p>
+                        <p>Easy online booking service.</p>
                     </li>
                 </ol>
             </div>

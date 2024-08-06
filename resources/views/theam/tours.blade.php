@@ -6,48 +6,12 @@
 
 @section('coustomCss')
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <style>
-        body,
-        html {
-            height: 100%;
-            width: 100%;
-
-
-            /* Hide horizontal overflow */
-        }
-
-        .image-container {
-            position: relative;
-            width: 100%;
-            max-width: 100%;
-            overflow: hidden;
-
-        }
-
-
-
-        @media (max-width: 678px) {
-            .text-overlay {
-                width: 100%;
-                left: 50%;
-                margin-top: 0 !important;
-            }
-
-
-        }
-
-        @media (max-width: 320px) {
-            .text-overlay {
-                display: none;
-            }
-        }
-    </style>
 @endsection
 
 
 
 @section('content')
-    <div class="image-container overflow-hidden">
+    <div class="image-container overflow-hidden services">
         <img class="responsive-image" src="{{ asset('template Resourses/assets/tours/1.webp') }}" alt="Tour services">
         <div class="text-overlay mt-sm-0">
             <h1 class="text-white  mt-sm-0"
@@ -57,7 +21,7 @@
             </h1>
             <button type="button" class="btn btn-primary" style="margin-top: 10px;">
                 <a href="{{ route('theme.reservation') }}"
-                    style="text-decoration: none; color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);">
+                   >
                     Book Now &#8594;
                 </a>
             </button>
@@ -71,8 +35,8 @@
     <div class="container mt-5 overflow-hidden">
         <div class="row">
             <div class="col-lg-6 col-sm-12">
-                <h3>Tour chauffeur service
-                </h3>
+                <h2>Tour chauffeur service
+                </h2>
                 <p>
 Toss out the transportation tension while on any tour in the UK or London? Think of your London tour with the best personal chauffeur hire service and move all over London. Be relaxed and have no transportation stress while waiting to move to your desired places. London is a dynamic city with a history of culture, iconic landmarks, and tourist points. But helping the buzzing streets of London and public transport while tourism can be crushing. Hire a personal chauffeur while exploring London for your expedite, and move around with carefree traveling tension.
 
@@ -111,25 +75,25 @@ Hire a personal chauffeur for a London tour and explore the world's best opportu
 There are a few benefits to our Blueberry Tour chauffeur service for your London private tours.
 </p> -->
             <ol class="alternating-colors text">
-            
+
                     <h4>Make your tour customized</h4>
                     <p>
-                    
+
 Let our blueberry chauffeur company's expert assist you on your private tour of London, UK. You just mention the key things to your personal chauffeurs, and the next exploring hectic part is there to make your private London tour the best one and unforgettable.
                     </p>
-               
+
                     <h4>Unrivalled comfort</h4>
                     <p >
-                    
+
 Our Blueberry chauffeur company provides you a business-class vehicle to move in throughout your tour. It will be your choice of vehicle according to your needs. Let us know your demand for the tour, what type of things you want to see in London, and at what time phase you wish to travel; your travel personal chauffeur will be at your doorstep to take you and give you the best tour in London.
                     </p>
-               
+
                     <h4> Knowledgeable personal chauffeur</h4>
                     <p>
-                   
+
 Our Blueberry personal chauffeur for your private London tour will always have the best knowledge of all the best and deepest hidden beautiful places in London. Your chauffeur is more than a driver; it will also be your best travel expert. Just get ready, sit in the car, and let your personal chauffeur make your tour the best of your life.
                     </p>
-              
+
             </ol>
         </div>
         <div class="image-column mt-5 mt-lg-0 col-lg-6 col-md-12 col-sm-12">
@@ -159,18 +123,18 @@ Our Blueberry personal chauffeur for your private London tour will always have t
         </div>
          <div class="col-lg-6 col-sm-12 mb-5 mb-lg-0 content-column">
             <!-- <h3 class="mt-4">List of services in London airport transfer service:</h3> -->
-            <ol class="alternating-colors text">
+            <ol class="alternating-colors text pt-5 pt-md-1">
                      <h4>Virtuously wayfinding private tour London UK</h4>
                     <p >
-                    
-                   
-                    
-Never worry about being stuck on tremendous traffic routes because our Blueberry personal chauffeur always makes a clear map-out plan for the road before moving to somewhere in London/UK. 
+
+
+
+Never worry about being stuck on tremendous traffic routes because our Blueberry personal chauffeur always makes a clear map-out plan for the road before moving to somewhere in London/UK.
 You just focus on enjoying the tour and remembering the best sights in London. So there will be no chance of missing marvelous London views in your private London tour.
-               
+
                     <h4>Business car hire demand</h4>
-                    <p > 
-Even on your private tour, we are here for you if you need business care for meetings or colleague get-togethers. 
+                    <p >
+Even on your private tour, we are here for you if you need business care for meetings or colleague get-togethers.
 Our Blueberry chauffeur company also provides many other services, but for your comfort and dem, we will be available 24/7.
 
                     </p>
@@ -181,7 +145,7 @@ Our Blueberry chauffeurs are always punctual and professional to you and will be
             </ol>
         </div>
     </div>
-   
+
 
     </div>
 
@@ -388,8 +352,8 @@ Our Blueberry chauffeurs are always punctual and professional to you and will be
     <div class="container overflow-hidden">
         <div class="row">
             <div class="col-12">
-            <h3 style="margin-top:60px;">Why Choose Our Blueberry chauffeur company</h3>
-            Never settle for ordinary transport while touring the best places in the world, like London. Our Blueberry chauffeur company will make the best effort on your tour with our personal chauffeur tour service. Visit our Blueberry chauffeur website or call us for more details. Give us your location and top tour notes so that we can make it best for you. 
+            <h2 style="margin-top:60px;">Why Choose Our Blueberry chauffeur company</h2>
+            Never settle for ordinary transport while touring the best places in the world, like London. Our Blueberry chauffeur company will make the best effort on your tour with our personal chauffeur tour service. Visit our Blueberry chauffeur website or call us for more details. Give us your location and top tour notes so that we can make it best for you.
 
             </div>
         </div>

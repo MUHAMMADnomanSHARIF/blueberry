@@ -9,6 +9,22 @@
     margin-bottom: 50px;
     padding: 10px;
 }
+.whatsapp-icon {
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+    z-index: 1000;
+    display: none;
+    /* Initially hide on larger screens */
+}
+
+
+.whatsapp-icon .fa-solid {
+    font-size: 35px;
+    color: var(--yellow-color)
+}
+
+
 .card__bx,
 :root {
     --yellow-color:  #f6cf59 !important;
@@ -150,6 +166,8 @@ h3 {
 .navbar-light .navbar-brand,
 .navbar-light a.btn {
     height: 75px;
+
+
 }
 .navbar-light.sticky-top {
     top: -100px;
@@ -200,6 +218,16 @@ h3 {
         height: 100%;
         object-fit: cover;
     }
+    .navbar-light .navbar-brand{
+        width: 37%;
+    }
+    .navnumber
+    {
+        line-height: 77px;
+        font-size: 18px;
+        color: yellow;
+        width: 62% !important;
+        }
 }
 .page-header {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) center
@@ -381,6 +409,63 @@ h3 {
 #fleettable4 {
     background-color: rgba(232, 229, 229, 0.5);
 }
+.navbar-toggler-icon{
+    background-image:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(200,200,200,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* AirPort Service  */
+.image-container {
+            position: relative;
+            width: 100%;
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+
+        .slider_1 {
+            display: flex;
+            justify-content: space-between;
+        }
+        #airbanner{
+            background-image: url("/template Resourses/assets/airport/Banner Airport.webp");
+            height:100vh;
+            background-repeat:no-repeat;
+            width:100%;
+            object-fit: cover;
+
+        }
+        @media (max-width: 500px) {
+              #airbanner{
+            background-image: url("/template Resourses/assets/airport/Banner Airport.webp");
+            height: 31vh;
+            background-repeat: no-repeat;
+            width: 101%;
+            font-size: 1.2rem;
+            object-fit: cover;
+            background-size: cover;
+            }
+
+            .services a{
+                text-decoration: none;
+                padding: 5px !important;
+                 color: white;
+                 text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+
+            }
+        .text-overlay h1{
+
+                font-size: 1.4em !important;
+                text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9) !important;
+            }
+
+        }
+
+        @media (max-width: 320px) {
+            .text-overlay a {
+                display: none;
+            }
+        }
+
 @media (max-width: 1205px) {
     #fleettable,
     #fleettable2 {
@@ -642,9 +727,8 @@ img {
 }
 .about-section {
     position: relative;
-    padding: 0 0 70px;
-    overflow-x: hidden;
-    margin-top: 50px;
+    /* padding: 0 0 70px; */
+    /* overflow-x: hidden; */
 }
 .about-section .list-style-one,
 .about-section .sec-title {
@@ -716,6 +800,7 @@ img {
     background: 0 0;
     z-index: 0;
     border: 44px solid #f6cf59;
+    border-top: white;
 }
 .about-section .image-column .image-2 {
     position: absolute;
@@ -769,7 +854,23 @@ img {
         left: -46px;
     }
 }
+
+@media screen and (min-width: 910px) and (max-width: 1125px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 10px;
+    }
+
+
+    .navbar h2 {
+        font-size: 1em !important;
+    }
+}
 @media only screen and (max-width: 767px) {
+
+    .whatsapp-icon {
+        display: block;
+
+    }
     .sec-title h2:before {
         width: 60px;
     }
@@ -785,6 +886,14 @@ img {
     }
     .image-column .inner-column {
         padding-left: 0;
+    }
+    .about-section .image-column .inner-column:before{
+        border: none;
+
+    }
+    .about-section .image-column .image-1 img{
+        margin-left: -40%;
+        width: 100%;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {

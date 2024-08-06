@@ -5,38 +5,26 @@
     'Book your private London airport transfer. 24/7 service, luxury vehicles, and professional drivers. Transfers to Heathrow, Gatwick, and more.')
 
 @section('coustomCss')
-    <style>
-        .image-container {
-            position: relative;
-            width: 100%;
-            max-width: 100%;
-            overflow: hidden;
-        }
-
-
-        .slider_1 {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        @media (max-width: 320px) {
-            .text-overlay a {
-                display: none;
-            }
-        }
-    </style>
-
-
+<style>
+h2{
+    color: #000000 !important;
+    font-size: 30px !important;
+    font-weight: 800 !important;
+    line-height: 34px !important;
+    margin-bottom: 20px !important;
+}
+</style>
 @endsection
 
 
 @section('content')
 
     <div
-        class="image-container"style="background-image: url('{{ asset('template Resourses/assets/airport/Banner Airport.webp') }}');height:100vh; background-repeat:no-repeat;width:100%;object-fit:cover">
-        {{-- <img src="{{ asset('template Resourses/assets/airport/4.png') }}" alt="airport services" class="responsive-image"> --}}
+        class="image-container services" id="airbanner">
+
         <div class="text-overlay">
-            <h1 class="mb-4 pb-3 animated slideInDown text-white">Enjoy the Essence of Chauffeur Service London</h1>
+            <h1 class="mb-4 pb-4 animated slideInDown text-white ">London Chauffeur Airport Transfer Services-Choose Your Personal Car Today
+            </h1>
             <a href="{{ route('theme.reservation') }}" class="btn header-buttn py-3 px-5 animated slideInDown">Book Now<i
                     class="fa fa-arrow-right ms-3"></i></a>
         </div>
@@ -52,7 +40,7 @@
             <div class="col-12">
                 <div class="sec-title">
 
-                    <h3>Troubleless Airport Transfers In London</h3>
+                    <h2>Get Trouble-Free Car Transfer Service at London Airports</h2>
                 </div>
                 <p>
                 Ever envision yourself landing at London airport, carrying a heavy suitcase, and feeling entirely lost about your destination's arrival? No need to worry; likely, a person is already standing outside the airport and waiting for you to meet and greet. You must get in the car, move to your hotel carefreely, and arrive safely. No luggage carrying tensions, no stress navigating public transport, and free of depression, the ride is on stand for you by our airport transfer service in London. This will be an enjoyable trip to London with our airport transfer London service. A few of our airport cars will arrive to you for your journey, so be ready to have a fantastic ride.
@@ -66,25 +54,25 @@ Booking a ride with our airport transfer service means no more calling for a cab
 
    <div class="container overflow-hidden my-md-5">
     <div class="row about-section">
-        <div class="col-lg-6 col-sm-12 mb-5 mb-lg-0 content-column">
-            <h3 class="mt-4">Consider Things on Airport Transfer in London</h3>
+        <div class="col-lg-6 col-sm-12 mb-5 mb-lg-0 ">
+            <h2 class="mt-4">Consider Things on Airport Transfer London</h2>
             <ol class="alternating-colors text">
-            
+
                     <h4>Convenient arrival</h4>
                     <p class=>
                         Pre-reserved rides will ensure a worry-free arrival. Your driver will be waiting for you at the London airport and will provide a safe trip from the airport to your desired destination.
                     </p>
-               
+
                     <h4>Known drivers</h4>
                     <p>
                         When you book a ride for an airport transfer in London, the details of your driver will be shared with you so that you will stay informed about your driver—details like name, picture and number, car plate number, etc.
                     </p>
-               
+
                     <h4>Variety of vehicles</h4>
                     <p>
                         As an airport transfer London company, we offer various cars. You can choose a vehicle according to your affordable budget.
                     </p>
-              
+
             </ol>
         </div>
         <div class="image-column mt-5 mt-lg-0 col-lg-6 col-md-12 col-sm-12">
@@ -113,39 +101,39 @@ Booking a ride with our airport transfer service means no more calling for a cab
 
         <div class="col-lg-6 col-sm-12 mb-5 mb-lg-0 content-column">
             <ol class="alternating-colors text">
-                     <h4>Mentoring airport car ride and time</h4>
+                     <h4 class="pt-md-4">Mentoring airport car ride and time</h4>
                     <p >
-                    
+
                     Our airport Transfers London company provides stable Wi-Fi in every vehicle, and you can also mentor your ride and driver. So you will not stuck with any traffic and terror hassle.                    </p>
-               
+
                     <h4> Greet and meet service
 
                     </h4>
                     <p >
-                   
-Your driver are punctual and will be waiting at the airport as your flight will land so that you donot have to wait. The driver will approach you as he get a first glance at you at the airport. 
+
+Your driver are punctual and will be waiting at the airport as your flight will land so that you donot have to wait. The driver will approach you as he get a first glance at you at the airport.
                     </p>
-               
+
                     <h4> Safe arrival with our Professional drivers</h4>
                     <p >
-                   
+
 Our airport's Transfer London company has well-mannered, well-trained, and professional drivers who will greet and take you to your destination on your service. The driver will not only pick you up from the airport and drop you off at your destination, but he will also care for your safety.
                     </p>
 
-                   
+
             </ol>
         </div>
 
-        
+
     </div>
     <div class="row about-section pt-0 pt-lg-5">
 
 <div class="col-lg-6 col-sm-12 content-column">
-    <h3>Exclusive Airport Transfer  </h3>
-    <p class="text">The Airport Transfer London company provides many options within your budget, cars like Mercedes S- class, Mercedes E- class, Mercedes V- class & EQV. Whether you travel alone, need a cheap airport transfer to London with family, or desire a 
+    <h2>Exclusive Airport Transfer Service</h2>
+    <p class="text">The Airport Transfer London company provides many options within your budget, cars like Mercedes S- class, Mercedes E- class, Mercedes V- class & EQV. Whether you travel alone, need a cheap airport transfer to London with family, or desire a luxurious
         <a href="{{ route('theme.index') }}"
                         style="text-decoration: none; color:#ecbd00 ;
-    font-weight: 500;">luxurious chauffeur service</a> , you can trust us for your ride. As you book your airport transfer ride with us, we will set up your ride and always give you a traffic-free route so that you will arrive on time for your scheduled meetings, trips, weddings, or for whatever purpose you are in London.
+    font-weight: 500;"> chauffeur service london</a> , you can trust us for your ride. As you book your airport transfer ride with us, we will set up your ride and always give you a traffic-free route so that you will arrive on time for your scheduled meetings, trips, weddings, or for whatever purpose you are in London.
 
     </p>
 
@@ -358,7 +346,7 @@ Our airport's Transfer London company has well-mannered, well-trained, and profe
                             <a href="{{ route('theme.reservation') }} " class="btn">Book Now</a>                    </div>
                 </div>
             </div>
-           
+
         </section>
     </section>
     <div class="container overflow-hidden">
@@ -366,7 +354,7 @@ Our airport's Transfer London company has well-mannered, well-trained, and profe
             <div class="col-12">
                 <div class="sec-title">
 
-                    <h3>Why choose Blueberry Airport chauffeur service:</h3>
+                    <h2>Why choose Blueberry Airport chauffeur service:</h2>
                 </div>
                 <p>
                 Suppose you are passing from a busy street in London to the airport or from the airport to your destination and need more time to get a ride. Our airport transfer London service can help in this situation. Book a ride with us because your precious vacations, trips, or
@@ -375,7 +363,7 @@ Our airport's Transfer London company has well-mannered, well-trained, and profe
     font-weight: 500;">business meeting</a> times are not to waste, so with us, travel easily with your choice of car and your desired place. Visit our website or call us for all the information you need to book a ride. Also, visit our extensive fleet of airport cars.
 Are you looking for more than an airport transfer service? You are at the right place, we also offer cheap <a href="{{ route('theme.wedding') }}"
                         style="text-decoration: none; color:#ecbd00 ;
-    font-weight: 500;">wedding car hire service</a> for your special day or for attending a wedding in London.
+    font-weight: 500;">wedding car hire</a> service for your special day or for attending a wedding in London.
 
                 </p>
                 <ol class="alternating-colors text">
@@ -386,7 +374,7 @@ Are you looking for more than an airport transfer service? You are at the right 
                 <h6>You can monitor your ride on the phone.</h6>
                 </li>
                 <li>
-                <h6>You can choose the car of your choice. 
+                <h6>You can choose the car of your choice.
                 </h6>
                 </li>
                 </ol>

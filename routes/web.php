@@ -30,9 +30,7 @@ Route::get('/about-us', function () {
 
 Route::redirect('/aboutus', '/about-us');
 
-Route::get('/service', function () {
-    return view('theam.service');
-})->name('theme.service');
+
 
 Route::group(['prefix' => 'services'], function () {
     Route::get('/london-airport-transfer', function () {
@@ -69,8 +67,8 @@ Route::redirect('/contactus', '/contact-us');
 Route::get('/fleet', function () {
     return view('theam.fleet');
 })->name('theme.fleet');
-Route::get('select-your-car', [GoogleController::class, 'calculate'])->name('theme.selectYourCar');
 Route::post('select-your-car', [GoogleController::class, 'calculate'])->name('theme.selectYourCar');
+Route::post('select-a-car', [GoogleController::class, 'calculateHour'])->name('theme.calculateHour');
 Route::get('google-autocomplete', [GoogleController::class, 'index']);
 Route::get('/reservation', function () {
     return view('theam.reservation');
@@ -90,7 +88,7 @@ Route::get('/blog/best-wedding-car-hire-service-in-the-uk-at-coupling-day', func
 Route::get('/blog/blueberry-chauffeur-service-for-business-travel', function () {
     return view('theam.single-blog-4');
 })->name('theme.blog4');
-Route::get('/blog/why-luxury-chauffeur-service-in-london-is-the-best-choice-for-you', function () {
+Route::get('/blog/why-luxury-chauffeur-service-london-is-the-best-choice-for-you', function () {
     return view('theam.single-blog-5');
 })->name('theme.blog5');
 
