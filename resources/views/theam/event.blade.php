@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('meta_title', ' Luxury Event Transportation in London | Blueberry Chauffeur!')
+@section('meta_title', 'Luxury Event Transportation in London | Blueberry Chauffeur')
 @section('meta_desc',
-    'Arrive in style with Blueberry Chauffeurs luxury event transportation in London. Professional luxury chauffeur service London and punctual service. Book your ride today!')
+    'Arrive in style with Blueberry Chauffeur`s luxury event transportation in London. Professional luxury chauffeur service London. Book your ride today!')
 
 @section('coustomCss')
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -24,8 +24,7 @@
     <div class="image-container overflow-hidden services">
         <img src="{{ asset('template Resourses/assets/events/1.webp') }}" alt="event services" class="responsive-image">
         <div class="text-overlay">
-            <h1 class="mb-4 pb-3 animated slideInDown text-white" style="text-shadow: 2px 2px 4px rgba(0, 0, 0,0.7)">Your
-                Signature Event Chauffeur</h1>
+            <h1 class="mb-4 pb-3 animated slideInDown text-white" style="text-shadow: 2px 2px 4px rgba(0, 0, 0,0.7)">Chauffeur driven tours in London & Uk wide</h1>
             <a href="{{ route('theme.reservation') }}"
                 class="btn header-buttn py-2 px-3 py-lg-2 px-lg-5 animated slideInDown">Book Now<i
                     class="fa fa-arrow-right ms-3"></i></a>
@@ -37,8 +36,8 @@
     <div class="container overflow-hidden mt-5">
         <div class="row">
             <div class="col-lg-6 col-sm-12">
-                <h2>Event Chauffeur Service</h2>
-                <p>Do you want to attend a corporate event, a personal event in London, or a wedding? We offer our event chauffeur service for sports events, night outs, or concert plans. As we all know, London has become the heart of event holders places. Suppose you want to go or are arranging or willing to plan a high-five event, from corporate to the grand opening event, any personal meeting, official conferences, or personal London tours. In that case, we are here with you, so relax and take the help of our event chauffeur service. If you want to look for a car service for an event near me, we will be available 24/7.
+                <h2>Hire a Chauffeurs for Unforgettable London Events</h2>
+                <p>Do you want to attend a corporate event, a personal event in London, or a wedding? We offer hire a chauffeur in london for sports events, night outs, concert plans or <a style="text-decoration: none; color:#FE9900 ; font-weight: 500;" href="{{route('theme.wedding')}}">wedding ceremony</a>. As we all know, London has become the heart of event holders places. Suppose you want to go or are arranging or willing to plan a high-five event, from corporate to the grand opening event, any personal meeting, official conferences, or personal London tours. In that case, we are here with you, so relax and take the help of our event chauffeur service. If you want to look for a car service for an event near me, we will be available 24/7.
 
                 </p>
 
@@ -76,7 +75,7 @@
                     <h4> Professional chauffeur service</h4>
                     <p >
 
-                    We provide Professional chauffeurs for the event chauffeur service in every corner of London. We have tested all our chauffeurs' driving and route information about London. Our Professional chauffeurs know all about London and its districts, iconic landmarks, tourist attraction points, hotels, nightclubs, restaurants, theatres, and event venues.                     </p>
+                    We provide Professional chauffeurs for the <a href="{{route('theme.tours')}}">personal chauffeur service</a> in every corner of London. We have tested all our chauffeurs' driving and route information about London. Our Professional chauffeurs know all about London and its districts, iconic landmarks, tourist attraction points, hotels, nightclubs, restaurants, theatres, and event venues.                     </p>
 
                     <h4> Chauffeur pick-up and wait time</h4>
                     <p >

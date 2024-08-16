@@ -133,7 +133,7 @@
                 {{-- <h5 class="  d-md-block" style="color: var(--yellow-color)  ; font-size:1.3em;">
                 </h5> --}}
             </a>
-            <a class="col-6 fw-bold navnumber d-md-none pl-4" href="Tel:+442035041721">+442035041721</a>
+            <a class="col-6 fw-bold navnumber d-md-none pl-4" href="Tel:02035041721">02035041721</a>
         </div>
         <button type="button" class="navbar-toggler col-2 border-0" data-bs-toggle="collapse"
             data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-label="Toggle navigation">
@@ -169,7 +169,7 @@
                 <a href="{{ route('theme.content') }}"
                     class="nav-item nav-link {{ Request::route()->getName() == 'theme.content' ? 'active' : '' }}  ">Contact</a>
             </div>
-            <a href="Tel:+442035041721"
+            <a href="Tel:02035041721"
                 class="btn btn-primary py-4 px-lg-5 d-none d-lg-flex align-items-center rounded-0">+44
                 2035041721
             </a>
@@ -178,7 +178,7 @@
     {{-- End navbar --}}
 
     <div class="whatsapp-icon">
-        <a href="Tel:+442035041721">
+        <a href="Tel:02035041721">
             <i class="fa-solid fa-square-phone"></i>
         </a>
     </div>
@@ -210,7 +210,7 @@
                     <p class="mb-2 text-light"><i class="fa fa-map-marker-alt me-3"></i>10-16 tiller road, canary
                         wharf, E14
                         8PX</p>
-                    <p class="mb-2 text-light"><i class="fa fa-phone-alt me-3"></i>+442035041721</p>
+                    <p class="mb-2 text-light"><i class="fa fa-phone-alt me-3"></i>02035041721</p>
                     <p class="mb-2 text-light"><i class="fa fa-envelope me-3"></i>info@blueberrychauffeur.co.uk
                     </p>
                     <div class="d-flex pt-2">

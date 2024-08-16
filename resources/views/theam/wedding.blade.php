@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('meta_title', ' Elegant wedding cars near me | Blueberry Chauffeur ')
+@section('meta_title', 'Elegant wedding cars near me | Blueberry Chauffeur')
 @section('meta_desc',
-    'Make your wedding day unforgettable with Blueberry Chauffeur s luxurious wedding car hire in London. Book your wedding chauffeur London now.')
+    'Make your wedding day unforgettable with Blueberry Chauffeur`s luxurious wedding car hire in London. Book your wedding chauffeur London now.')
 
 @section('coustomCss')
 <style>
