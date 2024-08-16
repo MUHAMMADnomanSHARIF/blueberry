@@ -24,8 +24,7 @@
     <div class="image-container services">
         <img src="{{ asset('template Resourses/assets/wedding/1.webp') }}" alt="wedding services" class="responsive-image">
         <div class="text-overlay">
-            <h1 class="mb-4 pb-3 animated slideInDown text-white" style="text-shadow: 2px 2px 4px rgba(0, 0, 0,0.7)">Exclusive
-                Wedding Chauffeur Hire</h1>
+            <h1 class="mb-4 pb-3 animated slideInDown text-white" style="text-shadow: 2px 2px 4px rgba(0, 0, 0,0.7)">Wedding Cars Near Me | Best Chauffeur Service for Wedding Car Hire</h1>
             <a href="{{ route('theme.reservation') }}" class="btn header-buttn py-3 px-5 animated slideInDown">Book Now<i
                     class="fa fa-arrow-right ms-3"></i></a>
         </div>
@@ -36,10 +35,10 @@
             <div class="col-lg-12">
                 <div class="sec-title">
 
-                    <h2>Wedding chauffeur service</h2>
+                    <h2>Hire Wedding Cars | Wedding Chauffeur Service London</h2>
                 </div>
                 <p>
-                Let us take care of your wedding day exceptionally because it is a day with a great attachment to emotions and sentiments. On a precise day when you must travel somewhere, transportation is a serious thing to manage. For your special day, let us worry about traveling from one place to another for your band for your guess. You must book a wedding chauffeur service from our company and leave the rest to us. Envisage entering in style with our luxurious wedding chauffeur service, a comfortable and perfect entrance by creating an unforgettable memory of your wedding day. We will add a touch of punctuality and troubleless travel for you.
+                Let us take care of your wedding day exceptionally because it is a day with a great attachment to emotions and sentiments. On a precise day when you must travel somewhere, transportation is a serious thing to manage. For your special day, let us worry about traveling from one place to another for your band for your guess. You must book a wedding chauffeur service from our company and leave the rest to us. Envisage entering in style with our luxurious wedding car service, a comfortable and perfect entrance by creating an unforgettable memory of your wedding day. We will add a touch of punctuality and troubleless travel for you.
                 </p>
             </div>
         </div>
@@ -70,7 +69,7 @@ Step out in a meticulously well-maintained luxury car, the essence of style and 
                     <h4> Punctual service</h4>
                     <p>
 
-With our wedding chauffeur service, you will receive a monarch's arrival at the venue. You can rely on our timekeeping and professional service. We will ensure your stunning entrance on our wedding and reception day and abolish any last-moment transportation tension.
+With our wedding car hire, you will receive a monarch's arrival at the venue. You can rely on our timekeeping and professional service. We will ensure your stunning entrance on our wedding and reception day and abolish any last-moment transportation tension.
                     </p>
 
                     <h4>Variety of vehicles</h4>
@@ -144,7 +143,7 @@ Our professional wedding chauffeurs will assist you with all your wedding care d
 
         <h4>Competitive rates</h4>
         <p>
-We offer you a competitive rate for a wedding chauffeur service, which will be the best one you get for the best days of your life
+We offer you a competitive rate for a wedding cars near mee, which will be the best one you get for the best days of your life
 </p>
 
 </ol>
@@ -229,7 +228,7 @@ As you book your rides we will give you all the details like photo, liscence pic
     {{-- why choose  --}}
     <div class="container mb-5 choose">
         <div class="row">
-            <h2 class="text-center mt-20" style="margin-top:60px; padding-bottom:60px;">Why choose Blueberry chauffeurs company</h2>
+            <h2 class="text-center mt-20" style="margin-top:60px; padding-bottom:60px;">Why choose Blueberry chauffeurs company?</h2>
         </div>
         <div class="row about-section">
             <div class="image-column col-lg-6 col-md-12 col-sm-12">
@@ -246,7 +245,7 @@ As you book your rides we will give you all the details like photo, liscence pic
 
                 <ol class="alternating-colors text ">
                         <p>
-                        Never get an ordinary transportation service on your extraordinary day of life. Contact our company and let us care for you and provide you with a perfect wedding chauffeur service. Please provide details about your wedding venue, date, time, and everything with us. Let have your day best one with our Blueberry chauffeurs company. Our Blueberry chauffeurs company also give a luxury <a style="text-decoration: underline;" href="https://blueberrychauffeur.co.uk/services/london-airport-transfer">luxury airport transfer</a> in London, as well as wedding chauffeur service.
+                        Never get an ordinary transportation service on your extraordinary day of life. Contact our company and let us care for you and provide you with a perfect wedding car hire. Please provide details about your wedding venue, date, time, and everything with us. Let have your day best one with our Blueberry chauffeurs company. Our Blueberry chauffeurs company also give a  <a style="text-decoration: underline;" href="https://blueberrychauffeur.co.uk/services/london-airport-transfer">london chauffeur airport transfer </a>, as well as wedding chauffeur service.
 
            </div>
         </div>
