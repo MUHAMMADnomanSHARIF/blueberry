@@ -70,6 +70,16 @@
                 </div>
 
             </div>
+                 <div class="col-md-6">
+                <div class="blog-post">
+                    <a href="{{ route('theme.blog6') }}"><img src="{{ asset('template Resourses/assets/blog/blog-img6.webp') }}" alt="reasons-for-hiring-luxury-chauffeur-services-for-every-event-in-the-uk"class="img-fluid"></a>
+                    <h3>Top 5, Reasons for Hiring Luxury Chauffeur Services for Every Event in the UK
+                    </h3>
+                    <p class="text-muted">Posted on Aug 22, 2024</p>
+                    <a href="{{ route('theme.blog6') }}" class="btn btn-primary">Read More</a>
+                </div>
+
+            </div>
         </div>
 
 

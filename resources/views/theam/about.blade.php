@@ -15,13 +15,16 @@
 
 
 @section('content')
-    <!-- Page Header Start --><div
-        class="image-container"style="background-image: url('{{ asset('template Resourses/assets/airport/Banner.webp') }}');height:100vh; background-repeat:no-repeat;width:100%;object-fit:cover">
-        {{-- <img src="{{ asset('template Resourses/assets/airport/4.png') }}" alt="airport services" class="responsive-image"> --}}
-        <div class="text-overlay">
-        <h1 class="display-3 text-white mb-3 animated slideInDown">About US</h1>
+    <!-- Page Header Start -->
+
+    <div class="container-fluid header-section p-0 overflow-hidden position-relative">
+        <img src="{{ asset('template Resourses/assets/airport/Banner.webp')}}" alt="home Page image" class="img-fluid"
+            style="object-fit: cover;width:100%;">
+        <div class="carousel-caption text-overlay">
+            <h1 class="text-gray m">About US</h1>
         </div>
     </div>
+
 
     <!-- Page Header End -->
 
@@ -57,11 +60,11 @@
                 </div>
 
                 <!-- Image Column -->
-                <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                    <div class="inner-column">
+                <div class="image-column col-lg-6 col-md-12 col-sm-12  mt-5">
+                    <div class="inner-column mt-5 h-50  border-none">
                         <figure class="image-1"><a class="lightbox-image" data-fancybox="images"><img
                                     src="{{ asset('template Resourses/assets/airport/5.webp') }}" class="img-fluid"
-                                    alt="about-img"></a></figure>
+                                    alt="about-img" width="100%" height="100%"></a></figure>
 
                     </div>
                 </div>

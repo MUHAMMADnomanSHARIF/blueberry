@@ -24,22 +24,16 @@
     </script>
     <!-- End Google Tag Manager -->
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> --}}
+    <link href="{{ asset('template Resourses/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://kit.fontawesome.com/79ea3f62f0.js" crossorigin="anonymous" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap"
-        rel="stylesheet">
-
     <!-- Owl Carousel -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="{{ asset('template Resourses/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+
 
     <!-- Slick Carousel -->
     <link rel="stylesheet" type="text/css"
@@ -48,31 +42,21 @@
 
     <!-- Swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
     <!-- Custom Stylesheets -->
-    <!--<link href="pics/style.css" rel="stylesheet">-->
-    <link href="{{ asset('template Resourses/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('template Resourses/css/style.css') }}" rel="stylesheet">
-
     <!-- Libraries Stylesheets -->
     <link href="{{ asset('template Resourses/lib/animate/animate.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('template Resourses/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
-
-
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('template Resourses/img/logo.png') }}">
-
-    <!-- Other Libraries (if any) -->
-
-    <!-- Add more as needed -->
+    <link rel="icon" type="image/x-icon" href="{{ asset('/template Resourses/img/logo.png') }}">
 
     <!-- Meta Tags -->
     <meta charset="utf-8" />
     @yield('gsc')
     <link rel="canonical" href="{{ url()->current() }}" />
-    <meta name="google-site-verification" content="n0iUIUlNoEuYlBcewLmhKhlHxwKJqJFTMNyw5vSO1Iw" />
+<meta name="google-site-verification" content="kVGtkanJF1mHY8WRw5AnkUwt_TgQnrVoejWnWoq8Dwk" />
+
     <meta name="description" content="@yield('meta_desc', 'Experience the ultimate in comfort and style with our luxury chauffeur service in London.  Book your ride today and enjoy a comfortable journey.')">
-    <meta name="title" content="@yield('meta_title', 'Luxury Chauffeur Service in London| Book Your Ride Today!')" />
+    <meta name="title" content="@yield('meta_title', 'Luxury Chauffeur Service London| Book Your Ride Today!')" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:locale" content="en_UK" />
     <meta property="og:type" content="article" />
@@ -99,44 +83,6 @@
             border: 2px solid black;
         }
     </style>
-
-
-    <style>
-        .whatsapp-icon {
-            position: fixed;
-            bottom: 40px;
-            left: 20px;
-            z-index: 1000;
-            display: none;
-            /* Initially hide on larger screens */
-        }
-
-        .whatsapp-icon .fa-solid {
-            font-size: 35px;
-            color: var(--yellow-color)
-        }
-
-        @media (max-width: 767px) {
-
-            /* Show the WhatsApp icon only on screens smaller than 768px (mobile view) */
-            .whatsapp-icon {
-                display: block;
-
-            }
-        }
-
-        @media screen and (min-width: 910px) and (max-width: 1125px) {
-            .navbar-light .navbar-nav .nav-link {
-                font-size: 10px;
-            }
-
-
-            .navbar h2 {
-                font-size: 1em !important;
-            }
-        }
-    </style>
-
     @yield('coustomCss')
 
 </head>
@@ -145,7 +91,7 @@
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MLJBXJ7Z" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    {{-- <!-- End Google Tag Manager (noscript) -->
     {{-- spinner --}}
     {{-- <div id="spinner"
         class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex flex-column align-items-center justify-content-center"
@@ -154,39 +100,42 @@
 
         </div>
         <div style="margin-top: -130px;">
-            <img align="center" src="{{ asset('template Resourses/img/logo.png') }}" width="150px" height="150px"
+            <img align="center" src="{{ asset('template Resourses/img/000.png') }}" width="150px" height="150px"
                 style=" display: inline-block; z-index: 1000;" alt="blueberry-chauffeur">
 
         </div>
 
     </div> --}}
-    {{-- end spinner --}}
+    {{-- end spinner  --}}
     <style>
         nav>a img{
             margin-top:11px;
-             margin-left: 40px; 
+             margin-left: 40px;
             width:10rem;
         }
         @media screen and (max-width: 767px) {
             nav>a img{
-                
-                margin-left: 0px; 
+
+                margin-left: 0px;
                 width:16rem;
                 height: 3rem;
             }
         }
-       
+
     </style>
 
     {{-- Nav Bar --}}
 
     <nav class="navbar navbar-expand-lg row mt-0 mx-auto px-4 px-lg-5 navbar-light shadow sticky-top p-0"
         style="background-color:#201e1e;">
-        <a href="{{ route('theme.index') }}" class="navbar-brand m-0 d-flex align-items-center col-3">
-            <img src="{{ asset('template Resourses/img/Final logo.png') }}" alt="blueberry-chauffeur" >
-            <h2 class=" d-none d-md-block" style="color: var(--yellow-color)  ; font-size:1.3em;">
-            </h2>
-        </a>
+        <div class="row col-md-3 col-10 ">
+            <a href="{{ route('theme.index') }}" class=" col-md-8 col-3 navbar-brand m-0 d-flex align-items-center col-3">
+                <img src="{{ asset('template Resourses/img/Final logo.png') }}" alt="blueberry-chauffeur" >
+                {{-- <h5 class="  d-md-block" style="color: var(--yellow-color)  ; font-size:1.3em;">
+                </h5> --}}
+            </a>
+            <a class="col-6 fw-bold navnumber d-md-none pl-4" href="Tel:02035041721">02035041721</a>
+        </div>
         <button type="button" class="navbar-toggler col-2 border-0" data-bs-toggle="collapse"
             data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon text-white fw-bold"></span>
@@ -213,8 +162,7 @@
                     </ul>
                 </li>
                 <a href="{{ route('theme.fleet') }}"
-                    class="nav-item nav-link {{ Request::route()->getName() == 'theme.fleet' ? 'active' : '' }}  ">Our
-                    Fleet</a>*-
+                    class="nav-item nav-link {{ Request::route()->getName() == 'theme.fleet' ? 'active' : '' }}  ">Our  Fleet</a>*-
                 <a href="{{ route('theme.reservation') }}"
                     class="nav-item nav-link {{ Request::route()->getName() == 'theme.reservation' ? 'active' : '' }}  ">Reservation</a>
                 <a href="{{ route('theme.allblogs') }}"
@@ -222,16 +170,15 @@
                 <a href="{{ route('theme.content') }}"
                     class="nav-item nav-link {{ Request::route()->getName() == 'theme.content' ? 'active' : '' }}  ">Contact</a>
             </div>
-            <a href="Tel:+442035041721"
-                class="btn btn-primary py-4 px-lg-5 d-none d-lg-flex align-items-center rounded-0">+44
-                2035041721
+            <a href="Tel:02035041721"
+                class="btn btn-primary py-4 px-lg-5 d-none d-lg-flex align-items-center rounded-0">02035041721
             </a>
         </div>
     </nav>
     {{-- End navbar --}}
 
     <div class="whatsapp-icon">
-        <a href="Tel:+442035041721">
+        <a href="Tel:02035041721">
             <i class="fa-solid fa-square-phone"></i>
         </a>
     </div>
@@ -263,7 +210,7 @@
                     <p class="mb-2 text-light"><i class="fa fa-map-marker-alt me-3"></i>10-16 tiller road, canary
                         wharf, E14
                         8PX</p>
-                    <p class="mb-2 text-light"><i class="fa fa-phone-alt me-3"></i>+442035041721</p>
+                    <a href="Tel:02035041721"><p class="mb-2 text-light"><i class="fa fa-phone-alt me-3"></i>02035041721</p></a>
                     <p class="mb-2 text-light"><i class="fa fa-envelope me-3"></i>info@blueberrychauffeur.co.uk
                     </p>
                     <div class="d-flex pt-2">
@@ -398,7 +345,7 @@
                 initializeAutocomplete('source2', 'lat3', 'long3', londonBounds, componentRestrictions);
             });
         });
-     
+
     </script>
 
 

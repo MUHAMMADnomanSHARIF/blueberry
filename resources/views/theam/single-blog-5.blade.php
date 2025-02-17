@@ -71,10 +71,10 @@
                 <div class="blog-post">
                     <img src="{{ asset('template Resourses/assets/blog/luxury-chauffeur-service.jpg') }}" class="img-fluid" alt="Lluxury-chauffeur-service-in-london">
                     <div class="content">
-                        <h1 class="title">Why Luxury Chauffeur Service in London is the Best Choice for You
+                        <h1 class="title">Why Luxury Chauffeur Service London is the Best Choice for You
                         </h1>
 
-                        <p class="description">London is a global hotspot for sophisticated travellers seeking a blend of sophistication, class, and warm hospitality. For the discerning traveller, an exclusive chauffeur service is a must. <a style="text-decoration: underline; color: blue;"  href="{{route('theme.index')}}">Blueberry Chauffeur Services</a>  epitomises this exclusivity, offering an unparalleled luxury chauffeur service London.
+                        <p class="description">London is a global hotspot for sophisticated travellers seeking a blend of sophistication, class, and warm hospitality. For the discerning traveller, an exclusive chauffeur service is a must.Blueberry Chauffeur Services epitomises this exclusivity, offering an unparalleled  <a style="text-decoration: underline; color: blue;"  href="{{route('theme.index')}}">luxury chauffeur service London.</a>
                         </p class="description">
                         <p>Imagine the luxury of not having to navigate London's charming streets. Our chauffeur service in London can provide this, whisking you away in comfort and style. Whether you're in town for business, pleasure, or a special occasion, chauffeur service is the epitome of convenient transportation. It allows you to focus on your phone or laptop instead of the roads, pick your music list, routes, and car temperature, and simply enjoy the journey without any stress.</p>
 
